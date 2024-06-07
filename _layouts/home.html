@@ -40,4 +40,19 @@ articles:
   {%- include scripts/home.js -%}
 </script>
 
+<!-- 添加个人信息部分 -->
+<div class="author-info">
+  <h2>个人信息</h2>
+  <ul>
+    {% for author in site.data.authors %}
+      <li>
+        <h3>{{ author.name }}</h3>
+        <p>{{ author.bio }}</p>
+        <p>Email: {{ author.email }}</p>
+        <!-- 添加其他需要显示的个人信息 -->
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 {{ content }}
