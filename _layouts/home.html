@@ -38,12 +38,11 @@ articles:
   <h2>个人信息</h2>
   <ul>
     {% for author_key in site.data.authors %}
-      {% assign author = site.data.authors[author_key] %}
       <li>
-        <h3>{{ author.name }}</h3>
+        <h3> Name : {{ site.data.authors[author_key] }}</h3>
         <p>{{ author.bio }}</p>
         <p>Email: {{ author.email }}</p>
-        <p>Test: update</p>
+        <p>Test: update222</p>
         <!-- 添加其他需要显示的个人信息 -->
       </li>
     {% endfor %}
