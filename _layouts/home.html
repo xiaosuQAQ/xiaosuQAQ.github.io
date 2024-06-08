@@ -34,15 +34,68 @@ articles:
   show_info: true
 ---
 <!-- 添加个人信息部分 -->
-<div class="author-info">
+<!-- <div class="author-info">
   <h2>个人信息</h2>
   <ul>
     {% for author_key in site.data.authors %}
       <li>
         <div> {{ author_key}} </div>
-        <!-- 添加其他需要显示的个人信息 -->
+
         <p> test 666</p>
       </li>
+    {% endfor %}
+  </ul>
+</div>
+-->
+
+<!-- 添加个人信息部分 -->
+<div class="author-info">
+  <h2>个人信息</h2>
+  <ul>
+    {% for author_key in site.data.authors %}
+      {% assign author = site.data.authors[author_key] %}
+      <li>
+        <h3>{{ author.name }}</h3>
+        <p><strong>URL:</strong> <a href="{{ author.url }}">{{ author.url }}</a></p>
+        <p><strong>Bio:</strong> {{ author.bio }}</p>
+        <p><strong>Email:</strong> {{ author.email }}</p>
+        
+        <!-- 显示社交媒体信息，如果存在的话 -->
+        {% if author.facebook %}
+          <p><strong>Facebook:</strong> <a href="https://www.facebook.com/{{ author.facebook }}">Facebook Profile</a></p>
+        {% endif %}
+        {% if author.twitter %}
+          <p><strong>Twitter:</strong> <a href="https://twitter.com/{{ author.twitter }}">Twitter Profile</a></p>
+        {% endif %}
+        {% if author.weibo %}
+          <p><strong>Weibo:</strong> <a href="https://www.weibo.com/{{ author.weibo }}">Weibo Profile</a></p>
+        {% endif %}
+        {% if author.googleplus %}
+          <p><strong>Google Plus:</strong> <a href="https://plus.google.com/u/0/{{ author.googleplus }}">Google Plus Profile</a></p>
+        {% endif %}
+        {% if author.telegram %}
+          <p><strong>Telegram:</strong> <a href="https://t.me/{{ author.telegram }}">Telegram Profile</a></p>
+        {% endif %}
+        {% if author.medium %}
+          <p><strong>Medium:</strong> <a href="https://medium.com/{{ author.medium }}">Medium Profile</a></p>
+        {% endif %}
+        {% if author.zhihu %}
+          <p><strong>Zhihu:</strong> <a href="https://www.zhihu.com/people/{{ author.zhihu }}">Zhihu Profile</a></p>
+        {% endif %}
+        {% if author.douban %}
+          <p><strong>Douban:</strong> <a href="https://www.douban.com/people/{{ author.douban }}">Douban Profile</a></p>
+        {% endif %}
+        {% if author.linkedin %}
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn Profile</a></p>
+        {% endif %}
+        {% if author.github %}
+          <p><strong>GitHub:</strong> <a href="https://github.com/{{ author.github }}">GitHub Profile</a></p>
+        {% endif %}
+        {% if author.npm %}
+          <p><strong>NPM:</strong> <a href="https://www.npmjs.com/~{{ author.npm }}">NPM Profile</a></p>
+        {% endif %}
+      </li>
+      <p> test gpt</p>
     {% endfor %}
   </ul>
 </div>
