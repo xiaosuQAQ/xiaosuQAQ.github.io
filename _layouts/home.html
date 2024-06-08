@@ -39,11 +39,9 @@ articles:
   <ul>
     {% for author_key in site.data.authors %}
       <li>
-        <h3> Name : {{ site.data.authors[author_key] }}</h3>
-        <p>{{ author.bio }}</p>
-        <p>Email: {{ author.email }}</p>
-        <p>Test: update222</p>
+        <div> {{ author_key}} </div>
         <!-- 添加其他需要显示的个人信息 -->
+        <p> test 666</p>
       </li>
     {% endfor %}
   </ul>
