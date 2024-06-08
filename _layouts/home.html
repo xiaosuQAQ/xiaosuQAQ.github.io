@@ -53,9 +53,11 @@ articles:
   <h2>个人信息</h2>
   <ul>
     {% for author_key in site.data.authors %}
-      {% assign author = site.data.authors[author_key] %}
       <li>
         <h3>{{ author.name }}</h3>
+        <div> author.url </div>
+        <div> author.bio </div>
+        <div> author.email </div> 
         {% if author.url %}
           <p><strong>URL:</strong> <a href="{{ author.url }}">{{ author.url }}</a></p>
         {% endif %}
