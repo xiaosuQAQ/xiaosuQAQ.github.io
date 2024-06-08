@@ -43,12 +43,22 @@ articles:
         <h3>{{ author.name }}</h3>
         <p>{{ author.bio }}</p>
         <p>Email: {{ author.email }}</p>
-        <p>Test: try to show</p>
+        <p>Test: update</p>
         <!-- 添加其他需要显示的个人信息 -->
       </li>
     {% endfor %}
   </ul>
 </div>
+
+<!-- 添加调试信息 -->
+<div class="debug-info">
+  <pre>
+    {% for author_key in site.data.authors %}
+      {{ author_key }}: {{ site.data.authors[author_key] | jsonify }}
+    {% endfor %}
+  </pre>
+</div>
+
 
 <div class="layout--home">
   {%- include paginator.html -%}
