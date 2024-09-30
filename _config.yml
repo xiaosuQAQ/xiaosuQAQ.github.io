@@ -81,11 +81,11 @@ toc:
   selectors: # "h1,h2,h3" (default)
 
 # 自定义导航栏
-navigation:
-  - title: "首页"
-    url: "/"
-  - title: "文章目录"
-    url: "/archive.html"
+# navigation:
+#   - title: "首页"
+#     url: "/"
+#   - title: "文章目录"
+#     url: "/archive.html"
 
 
 ## => Markdown Enhancements
