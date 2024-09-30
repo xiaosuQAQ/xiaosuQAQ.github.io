@@ -33,65 +33,11 @@ articles:
   show_readmore: true
   show_info: true
 ---
-<!-- 添加个人信息部分 -->
-<!-- <div class="author-info">
-  <h2>个人信息</h2>
-  <ul>
-    {% for author_key in site.data.authors %}
-      <li>
-        <div> {{ author_key}} </div>
-
-        <p> test 666</p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
--->
-
-<!-- 添加个人信息部分 -->
-<div class="author-info">
-  <h2>个人信息</h2>
-  <ul>
-    {% for author_key in site.data.authors %}
-      {% assign author = site.data.authors[author_key] %}
-      <li>
-        <h3>{{ author.name }}</h3>
-        <div>{{ author.url }}</div>
-        <div>{{ author.bio }}</div>
-        <div>{{ author.email }}</div> 
-        {% if author.url %}
-          <p><strong>URL:</strong> <a href="{{ author.url }}">{{ author.url }}</a></p>
-        {% endif %}
-        {% if author.bio %}
-          <p><strong>Bio:</strong> {{ author.bio }}</p>
-        {% endif %}
-        {% if author.email %}
-          <p><strong>Email:</strong> {{ author.email }}</p>
-        {% endif %}
-        
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-
-
-<!-- 添加调试信息 -->
-<div class="debug-info">
-  <pre>
-    {% for author_key in site.data.authors %}
-      {{ author_key }}: {{ site.data.authors[author_key] | jsonify }}
-    {% endfor %}
-  </pre>
-</div>
-
-
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>
 <script>
   {%- include scripts/home.js -%}
 </script>
-
 
 {{ content }}
