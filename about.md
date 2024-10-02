@@ -27,13 +27,11 @@ key: page-about
 ---
 ###### 关于我 About me
 
-![1727794013619](image/about/1727794013619.png)
+![Image](assets\images\me.jpg){:.circle.border.shadow}
 
 目前就读于南开大学人工智能学院控制科学与工程（人工智能方向），师从孙明竹教授，研究方向为计算机视觉、医学影像分割。本科就读于太原理工大学计算机科学与技术学院（大数据学院）人工智能专业。
 
 I'm a Master student in Nankai University(ROMIOL, Robotic Micro-nano Operation Laboratory) under the supervision of Prof.Mingzhu Sun, who is an expert in the field of Micro-Manipulation Robot and Computer Vision. I have got my B.S. Degree at Taiyuan University of Technology. My research interest includes Computer Vision and Deep Learning.
-
----
 
 ###### 联系方式 Connect with me
 
