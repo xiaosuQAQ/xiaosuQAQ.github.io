@@ -125,7 +125,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -136,7 +136,7 @@ comments:
   gitalk:
     clientID    : Ov23lixtH5G8lI80ToF5 # GitHub Application Client ID
     clientSecret: aa367b728214de69be476b8b34df848ddc78ece5 # GitHub Application Client Secret
-    repository  : xiaosuQAQ/xiaosuQAQ.github.io # GitHub repo
+    repository  : xiaosuQAQ.github.io # GitHub repo
     owner       : xiaosuQAQ # GitHub repo owner
     admin: 
       - xiaosuQAQ
