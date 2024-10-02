@@ -33,7 +33,7 @@ en-AU:
 ## => Simplified Chinese
 ########################
 zh-Hans: &ZH_HANS
-                 : "订阅"
+  SUBSCRIBE               : 
   READMORE                : "阅读更多"
   SEARCH                  : "搜索"
   CANCEL                  : "取消"
@@ -62,7 +62,7 @@ zh-SG:
 ## => Traditional Chinese
 ########################
 zh-Hant: &ZH_HANT
-  SUBSCRIBE               : "訂閱"
+  SUBSCRIBE               : 
   READMORE                : "閱讀更多"
   SEARCH                  : "搜索"
   CANCEL                  : "取消"
