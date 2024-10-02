@@ -2,12 +2,12 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       About
+  en      : &EN   
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
+  zh-Hans : &ZH_HANS  
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
@@ -29,10 +29,10 @@ key: page-about
 
 ![Image](assets\images\me.jpg){:.circle.border.shadow}
 
-目前就读于南开大学人工智能学院控制科学与工程（人工智能方向），师从孙明竹教授，研究方向为计算机视觉、医学影像分割。本科就读于太原理工大学计算机科学与技术学院（大数据学院）人工智能专业。
+苏晓斐，目前就读于南开大学人工智能学院控制科学与工程（人工智能方向），师从孙明竹教授，研究方向为计算机视觉、医学影像分割。本科就读于太原理工大学计算机科学与技术学院（大数据学院）人工智能专业。
 
-I'm a Master student in Nankai University(ROMIOL, Robotic Micro-nano Operation Laboratory) under the supervision of Prof.Mingzhu Sun, who is an expert in the field of Micro-Manipulation Robot and Computer Vision. I have got my B.S. Degree at Taiyuan University of Technology. My research interest includes Computer Vision and Deep Learning.
+Xiaofei Su is currently a Master student in Nankai University(ROMIOL, Robotic Micro-nano Operation Laboratory) under the supervision of Prof.Mingzhu Sun, who is an expert in the field of Micro-Manipulation Robot and Computer Vision. She have got my B.S. Degree at Taiyuan University of Technology. Her research interest includes Computer Vision and Deep Learning.
 
 ###### 联系方式 Connect with me
 
-2120240566 AT mail DOT Nankai DOT edu DOT cn
+2120240566@mail.Nankai.edu.cn

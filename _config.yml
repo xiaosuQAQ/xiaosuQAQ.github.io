@@ -136,8 +136,8 @@ comments:
   gitalk:
     clientID    : Ov23lixtH5G8lI80ToF5 # GitHub Application Client ID
     clientSecret: aa367b728214de69be476b8b34df848ddc78ece5 # GitHub Application Client Secret
-    repository  : xiaosuQAQ.github.io # GitHub repo
-    owner       : Su Xiaofei # GitHub repo owner
+    repository  : xiaosuQAQ/xiaosuQAQ.github.io # GitHub repo
+    owner       : xiaosuQAQ # GitHub repo owner
     admin: 
       - xiaosuQAQ
     # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
