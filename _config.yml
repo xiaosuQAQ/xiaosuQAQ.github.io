@@ -182,8 +182,8 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : G-VGR9MJCFTE # Google Analytics id for the site
-    anonymize_ip: true # Anonymize IP tracking for Analytics
+    tracking_id: G-VGR9MJCFTE # Google Analytics id for the site
+    anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
 ## => Build
