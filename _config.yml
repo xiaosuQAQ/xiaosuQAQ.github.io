@@ -233,6 +233,3 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-collections:
-  essays:
-    output: true

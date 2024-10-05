@@ -75,4 +75,4 @@ header:
       fr-LU   : *FR
       tr      : &TR       
       # @end locale config
-    url: /_essays/
+    url: /essay.html
