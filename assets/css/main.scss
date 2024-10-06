@@ -72,3 +72,10 @@
 
     "custom"
 ;
+.center {
+    display: block;       /* 将图片设为块级元素 */
+    margin-left: auto;   /* 左边距自动 */
+    margin-right: auto;  /* 右边距自动 */
+    max-width: 100%;     /* 可选：限制图片最大宽度 */
+  }
+  
