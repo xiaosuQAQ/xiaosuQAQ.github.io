@@ -14,9 +14,9 @@ titles:
   zh-Hant : &ZH_HANT  
   zh-TW   : *ZH_HANT
   zh-HK   : *ZH_HANT
-  ko      : &KO     
+  ko      : &KO   
   ko-KR   : *KO
-  fr      : &FR     
+  fr      : &FR   
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
@@ -28,4 +28,6 @@ key: page-about
 ---
 ##### 随笔
 
-🎈hello essay
+👻2024/10/06 阴 
+
+经常因为近视400多度但不戴眼镜在路上不敢看别人的脸，以至于有时错过别人打招呼，很想在脑袋上方飘个告示，来为忽视别人的热情与善意而致歉。
