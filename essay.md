@@ -14,9 +14,9 @@ titles:
   zh-Hant : &ZH_HANT  
   zh-TW   : *ZH_HANT
   zh-HK   : *ZH_HANT
-  ko      : &KO     
+  ko      : &KO   
   ko-KR   : *KO
-  fr      : &FR     
+  fr      : &FR   
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
@@ -28,4 +28,4 @@ key: page-about
 ---
 ##### 随笔
 
-🎈hello essay
+🎈
