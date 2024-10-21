@@ -27,7 +27,7 @@ key: page-about
 ---
 ###### 关于我 About me
 
-![Image](assets\images\me.jpg){:.circle.border.shadow}
+![Image](\assets\images\me.jpg){:.circle.border.shadow}
 
 苏晓斐，目前就读于南开大学人工智能学院控制科学与工程（人工智能方向），师从孙明竹教授，研究方向为计算机视觉、医学影像分割。本科就读于太原理工大学计算机科学与技术学院（大数据学院）人工智能专业。
 
