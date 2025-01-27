@@ -29,9 +29,6 @@ key: page-about
 
 <img src="/assets/images/me.jpg" alt="Image" class="circle border shadow" style="width:90px; height:auto;">
 
-
-苏晓斐，目前就读于南开大学人工智能学院控制科学与工程（人工智能方向），师从孙明竹教授，研究方向为计算机视觉、医学影像分割。本科就读于太原理工大学计算机科学与技术学院（大数据学院）人工智能专业。
-
 Xiaofei Su is currently a Master student in Nankai University(ROMIOL, Robotic Micro-nano Operation Laboratory) under the supervision of Prof.Mingzhu Sun, who is an expert in the field of Micro-Manipulation Robot and Computer Vision. Xiaofei Su has got B.S. Degree at Taiyuan University of Technology. Her research interest includes Computer Vision and Deep Learning.
 
 ###### 联系方式 Connect with me
