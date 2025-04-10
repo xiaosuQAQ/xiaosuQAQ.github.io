@@ -234,4 +234,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-optional-front-matter
 
