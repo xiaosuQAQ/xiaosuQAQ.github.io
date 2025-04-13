@@ -2,18 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* 正文中文默认用思源宋体，回退到系统衬线体 */
-body {
-    font-family: 'Noto Serif SC', serif;
-    line-height: 1.7;
-}
-  
-/* 标题或英文内容可用 Merriweather */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
-}
-  
-
 @import
 
     "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
@@ -84,3 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 
     "custom"
 ;
+
+body,
+article,
+.article-content,
+.post-content,
+.content,
+p,
+li {
+  font-family: 'Noto Serif SC', serif;
+  line-height: 1.7;
+}
