@@ -194,7 +194,7 @@ kramdown:
   math_engine: mathjax
   parse_block_html:   true
   math_engine_opts:
-  preview: true
+    preview: true
 
 highlighter : rouge
 permalink   : date
