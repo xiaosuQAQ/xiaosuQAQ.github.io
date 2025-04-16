@@ -33,13 +33,13 @@ CBAM模块放在残差连接处（即图中的HAB），依次为通道注意力�
 通道注意力部分使用全局范围池化Range（最大池化减去最小池化得到的平均值）、最大池化Max、平均池化Arverage得到不同通道的权重，最后对3个池化的结果进行元素级加法（为之后与原数据相乘时的“广播机制”匹配），整体的过程与CBAM的通道注意力计算一致。
 
 <div align="center">
-  <img src="/assets/images/MMNet/channel.png" alt="通道注意力" width="80%">
+  <img src="/assets/images/MMNet/channel.png" alt="通道注意力" width="50%">
 </div>
 
 空间注意力计算也使用了3种池化操作，且最后使用卷积操作融合池化操作的结果，见下图。
 
 <div align="center">
-  <img src="/assets/images/MMNet/spatial.png" alt="空间注意力" width="80%">
+  <img src="/assets/images/MMNet/spatial.png" alt="空间注意力" width="50%">
 </div>
 
 ##### 小结
