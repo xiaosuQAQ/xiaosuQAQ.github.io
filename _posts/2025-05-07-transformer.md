@@ -81,7 +81,7 @@ $$
 作者在此基础上又添加了一个可进一步提高并行性、多视角捕捉依赖关系的模块：多头自注意力，作者设计了多个头来学习不同的特定关系（例如长距离和短距离），见下图。
 
 <div align="center">
-  <img src="/assets/images/Transformer/multi-head.png" alt="Non-local Block" width="80%">
+  <img src="/assets/images/Transformer/multi-head.png" alt="Non-local Block" width="60%">
 </div>
 
 自注意力的计算流程可写作：
@@ -152,7 +152,7 @@ $$
 #### 模型框架
 
 <div align="center">
-  <img src="/assets/images/Transformer/transfromer.png" alt="Non-local Block" width="80%">
+  <img src="/assets/images/Transformer/transfromer.png" alt="Non-local Block" width="60%">
 </div>
 
 首先对模型输入进行embedding映射到数值空间，接着添加位置编码信息，模型的输入inputs是指原句子，outputs指目标句子（这里要注意的是训练阶段和推理阶段的outputs不同，训练时输入的是对应位置标签，而推理阶段输入的是前一时刻解码器的输出，两个阶段均会生成下一位置的预测概率）。
